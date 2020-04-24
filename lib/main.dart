@@ -39,19 +39,19 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
     Text(
-      'Index 0: Home',
+      'To be added: Fridge',
       style: optionStyle,
     ),
     Text(
-      'Index 1: Business',
+      'To be added: Shopping List',
       style: optionStyle,
     ),
     Text(
-      'Index 2: School',
+      'To be added: Recipes',
       style: optionStyle,
     ),
     Text(
-      'Index 3: Alarm',
+      'To be added: Barcode Scan',
       style: optionStyle,
     )
   ];
