@@ -74,20 +74,20 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            title: Text('Home'),
+            icon: Icon(Icons.kitchen),
+            title: Text('Fridge'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.business),
-            title: Text('Business'),
+            icon: Icon(Icons.shopping_cart),
+            title: Text('Shopping List'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.school),
-            title: Text('School'),
+            icon: Icon(Icons.local_dining),
+            title: Text('Recipes'),
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.alarm),
-            title: Text('Alarm'),
+            icon: Icon(Icons.camera_alt),
+            title: Text('Scan'),
           )
         ],
         currentIndex: _selectedIndex,
