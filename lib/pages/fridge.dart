@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'food.dart';
-import 'form.dart';
+import 'fridgeForm.dart';
 
 class Fridge extends StatefulWidget {
   @override
@@ -16,18 +16,14 @@ class _FridgeState extends State<Fridge> {
         onPressed: () {
           showDialog(
             context: context,
-            child: Scaffold(
-              backgroundColor: Colors.white,
-              appBar: AppBar(
-                title: Text('Add new item'),
-                backgroundColor: Colors.green[800],
-              ),
-              body: Form(),
-            )
+            child: FridgeForm(
+              add: () {
+                setState(() {
+                  fridge.add(new Food("potato", 0));
+                });
+              },
+            ),
           );
-          setState(() {
-            fridge.add(new Food("potato", 0));
-          });
         },
         backgroundColor: Colors.green[600],
         child: Icon(
