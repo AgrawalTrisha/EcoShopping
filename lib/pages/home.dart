@@ -8,7 +8,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int _selectedIndex = 0;
   static const TextStyle optionStyle =
-  TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
+      TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static const List<Widget> _widgetOptions = <Widget>[
     Text(
       'To be added: Fridge',
@@ -64,8 +64,8 @@ class _HomeState extends State<Home> {
           )
         ],
         currentIndex: _selectedIndex,
-        backgroundColor: Colors.green[600],
         selectedItemColor: Colors.white,
+        backgroundColor: Colors.green[600],
         unselectedItemColor: Colors.green[800],
         onTap: _onItemTapped,
       ),

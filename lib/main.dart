@@ -14,9 +14,8 @@ import 'pages/home.dart';
 import 'pages/welcome.dart';
 
 void main() => runApp(MaterialApp(
-  home: Home(),
   routes: {
-    //'/': (context) => Home(),
-    '/welcome': (context) => Welcome(),
+    '/': (context) => Welcome(),
+    '/home': (context) => Home(),
   }
 ));
