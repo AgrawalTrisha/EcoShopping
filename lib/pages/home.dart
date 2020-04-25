@@ -53,14 +53,17 @@ class _HomeState extends State<Home> {
           BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart),
             title: Text('Shopping List'),
+            backgroundColor: Colors.green[600],
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.local_dining),
             title: Text('Recipes'),
+            backgroundColor: Colors.green[600],
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.camera_alt),
             title: Text('Scan'),
+            backgroundColor: Colors.green[600],
           )
         ],
         currentIndex: _selectedIndex,
