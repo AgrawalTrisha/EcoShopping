@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'fridge.dart';
+import 'food.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -7,13 +10,11 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int _selectedIndex = 0;
+  static List<Food> fridge = new List<Food>();
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
-  static const List<Widget> _widgetOptions = <Widget>[
-    Text(
-      'To be added: Fridge',
-      style: optionStyle,
-    ),
+  static List<Widget> _widgetOptions = <Widget>[
+    Fridge(),
     Text(
       'To be added: Shopping List',
       style: optionStyle,
@@ -38,7 +39,17 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BottomNavigationBar Sample'),
+        title: Text(
+          'EcoShopping',
+          style: GoogleFonts.manrope(
+            textStyle: TextStyle(
+              fontSize: 28.0,
+              letterSpacing: 2.0,
+              color: Colors.white,
+            ),
+          ),
+        ),
+        backgroundColor: Colors.green[600],
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
@@ -47,22 +58,54 @@ class _HomeState extends State<Home> {
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.kitchen),
-            title: Text('Fridge'),
+            title: Text(
+              'Fridge',
+              style: GoogleFonts.manrope(
+                textStyle: TextStyle(
+                  fontSize: 15.0,
+                  color: Colors.white,
+                ),
+              ),
+            ),
             backgroundColor: Colors.green[600],
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart),
-            title: Text('Shopping List'),
+            title: Text(
+              'List',
+              style: GoogleFonts.manrope(
+                textStyle: TextStyle(
+                  fontSize: 15.0,
+                  color: Colors.white,
+                ),
+              ),
+            ),
             backgroundColor: Colors.green[600],
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.local_dining),
-            title: Text('Recipes'),
+            title: Text(
+              'Recipes',
+              style: GoogleFonts.manrope(
+                textStyle: TextStyle(
+                  fontSize: 15.0,
+                  color: Colors.white,
+                ),
+              ),
+            ),
             backgroundColor: Colors.green[600],
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.camera_alt),
-            title: Text('Scan'),
+            title: Text(
+              'Scan',
+              style: GoogleFonts.manrope(
+                textStyle: TextStyle(
+                  fontSize: 15.0,
+                  color: Colors.white,
+                ),
+              ),
+            ),
             backgroundColor: Colors.green[600],
           )
         ],
