@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:convert';
 
 class Home extends StatefulWidget {
   @override
@@ -6,13 +7,39 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  Map jsonResult;
+  Map<String, List<String>> categories = {};
+  List<String> keys;
+  void getData() async {
+    String data = await DefaultAssetBundle.of(context).loadString("assets/categories.json");
+    jsonResult = json.decode(data);
+    keys = jsonResult.keys.toList();
+    print(jsonResult);
+    for(String key in keys)
+    {
+        List<String> temp = jsonResult[key].toString().replaceAll("{name:", "").replaceAll("[", "").replaceAll("}", "").replaceAll("]", "").split(", ").toList();
+        categories[key] = temp;
+    }
+    /*for(String key in keys){
+      print(jsonResult[key].toString());
+      Map temp = jsonDecode(jsonResult[key]);
+      //List<String> temp = (jsonResult[key] as List)?.map((item) => item as String)?.toList();
+      //List<String> temp = (jsonResult[key].toString()).split(",").toList();
+      //List<String> temp = jsonResult[key].split(",").toList();
+      //categories[key] = temp;
+      //categories[key] = temp;
+      print(temp);
+    }*/
+
+  }
   int _selectedIndex = 0;
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
-  static const List<Widget> _widgetOptions = <Widget>[
-    Text(
-      'To be added: Fridge',
-      style: optionStyle,
+  static List<Widget> _widgetOptions = <Widget>[
+    Column(
+      children: <Widget>[
+
+      ],
     ),
     Text(
       'To be added: Shopping List',
@@ -33,7 +60,11 @@ class _HomeState extends State<Home> {
       _selectedIndex = index;
     });
   }
-
+  @override
+  void initState() {
+    getData();
+    super.initState();
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
