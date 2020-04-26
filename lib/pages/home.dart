@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'fridge.dart';
-import 'food.dart';
+import 'dart:convert';
 
 class Home extends StatefulWidget {
   @override
@@ -9,103 +7,146 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  Map jsonResult;
+  Map<String, List<String>> categories = {};
+  List<String> keys;
+  Map<String, int> count;
+  void getData() async {
+    String data = await DefaultAssetBundle.of(context).loadString("assets/categories.json");
+    jsonResult = json.decode(data);
+    keys = jsonResult.keys.toList();
+    print(jsonResult);
+    for(String key in keys)
+    {
+        List<String> temp = jsonResult[key].toString().replaceAll("{name:", "").replaceAll("[", "").replaceAll("}", "").replaceAll("]", "").split(", ").toList();
+        categories[key] = temp;
+        for(String str in temp)
+          count[str] = 0;
+    }
+    /*for(String key in keys){
+      print(jsonResult[key].toString());
+      Map temp = jsonDecode(jsonResult[key]);
+      //List<String> temp = (jsonResult[key] as List)?.map((item) => item as String)?.toList();
+      //List<String> temp = (jsonResult[key].toString()).split(",").toList();
+      //List<String> temp = jsonResult[key].split(",").toList();
+      //categories[key] = temp;
+      //categories[key] = temp;
+      print(temp);
+    }*/
+
+  }
   int _selectedIndex = 0;
-  static List<Food> fridge = new List<Food>();
   static const TextStyle optionStyle =
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
-  static List<Widget> _widgetOptions = <Widget>[
-    Fridge(),
-    Text(
-      'To be added: Shopping List',
-      style: optionStyle,
-    ),
-    Text(
-      'To be added: Recipes',
-      style: optionStyle,
-    ),
-    Text(
-      'To be added: Barcode Scan',
-      style: optionStyle,
-    )
-  ];
+//  static List<Widget> _widgetOptions = <Widget>[
+//    Column(
+//      children: <Widget>[
+//        RaisedButton(
+//          child: Text("View Fridge"),
+//          color: Colors.blueAccent,
+//          onPressed: () {
+//            Navigator.pushNamed(context, '/view');
+//          },
+//        ),
+//        RaisedButton(
+//
+//        ),
+//      ],
+//      /// TODO: Create add button that adds to the fridge, using another page
+//    ),
+//    Text(
+//      'To be added: Shopping List',
+//      style: optionStyle,
+//    ),
+//    Text(
+//      'To be added: Recipes',
+//      style: optionStyle,
+//    ),
+//    Text(
+//      'To be added: Barcode Scan',
+//      style: optionStyle,
+//    )
+//  ];
+  /// Moved inside build function to allow further accessibility by bypassing  "Only static members can be accessed in initializers" error caused by the context in which the list was created
 
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
     });
   }
-
+  @override
+  void initState() {
+    getData();
+    super.initState();
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
-          'EcoShopping',
-          style: GoogleFonts.manrope(
-            textStyle: TextStyle(
-              fontSize: 28.0,
-              letterSpacing: 2.0,
-              color: Colors.white,
-            ),
-          ),
-        ),
-        backgroundColor: Colors.green[600],
+        title: const Text('BottomNavigationBar Sample'),
       ),
       body: Center(
-        child: _widgetOptions.elementAt(_selectedIndex),
+        child: <Widget>[
+          Column(
+//            children: <Widget>[
+//              RaisedButton(
+//                child: Text("View Fridge"),
+//                color: Colors.blueAccent,
+//                onPressed: () {
+//                  Navigator.pushNamed(context, '/view');
+//                },
+//              ),
+//              RaisedButton(
+//
+//              ),
+//            ],
+            children: categories.keys.map((key) {
+              return ExpansionTile(
+                title: Text(key),
+                children: categories[key].map((ingredient) {
+                  return ListTile(
+                    title: Text(ingredient),
+                    trailing:Text(count[ingredient].toString(), textScaleFactor: .75,),
+                  );
+                }).toList(),
+              );
+            }).toList(),
+            /// TODO: Create add button that adds to the fridge, using another page
+          ),
+          Text(
+            'To be added: Shopping List',
+            style: optionStyle,
+          ),
+          Text(
+            'To be added: Recipes',
+            style: optionStyle,
+          ),
+          Text(
+            'To be added: Barcode Scan',
+            style: optionStyle,
+          )
+        ].elementAt(_selectedIndex),
       ),
       bottomNavigationBar: BottomNavigationBar(
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.kitchen),
-            title: Text(
-              'Fridge',
-              style: GoogleFonts.manrope(
-                textStyle: TextStyle(
-                  fontSize: 15.0,
-                  color: Colors.white,
-                ),
-              ),
-            ),
+            title: Text('Fridge'),
             backgroundColor: Colors.green[600],
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.shopping_cart),
-            title: Text(
-              'List',
-              style: GoogleFonts.manrope(
-                textStyle: TextStyle(
-                  fontSize: 15.0,
-                  color: Colors.white,
-                ),
-              ),
-            ),
+            title: Text('Shopping List'),
             backgroundColor: Colors.green[600],
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.local_dining),
-            title: Text(
-              'Recipes',
-              style: GoogleFonts.manrope(
-                textStyle: TextStyle(
-                  fontSize: 15.0,
-                  color: Colors.white,
-                ),
-              ),
-            ),
+            title: Text('Recipes'),
             backgroundColor: Colors.green[600],
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.camera_alt),
-            title: Text(
-              'Scan',
-              style: GoogleFonts.manrope(
-                textStyle: TextStyle(
-                  fontSize: 15.0,
-                  color: Colors.white,
-                ),
-              ),
-            ),
+            title: Text('Scan'),
             backgroundColor: Colors.green[600],
           )
         ],
