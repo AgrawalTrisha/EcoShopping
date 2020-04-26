@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'food.dart';
-import 'form.dart';
 
 class Fridge extends StatefulWidget {
   @override
@@ -8,25 +7,14 @@ class Fridge extends StatefulWidget {
 }
 
 class _FridgeState extends State<Fridge> {
-  List<Food> fridge = new List<Food>();
+  List<Food> fridge = [Food("Potatoes", 0), Food("Milk", 0), Food("Flour (non-perishable)", 0)];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          showDialog(
-            context: context,
-            child: Scaffold(
-              backgroundColor: Colors.white,
-              appBar: AppBar(
-                title: Text('Add new item'),
-                backgroundColor: Colors.green[800],
-              ),
-              body: Form(),
-            )
-          );
           setState(() {
-            fridge.add(new Food("potato", 0));
+            fridge.add(Food("Carrots", 0));
           });
         },
         backgroundColor: Colors.green[600],
@@ -45,7 +33,7 @@ class _FridgeState extends State<Fridge> {
             child: Padding(
               padding: EdgeInsets.fromLTRB(10, 16, 10, 0),
               child: Text(
-                'Food item: ${fridge[index].name}',
+                '${fridge[index].name}',
                 textAlign: TextAlign.left,
               ),
             ),
