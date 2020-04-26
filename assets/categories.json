@@ -1,0 +1,1343 @@
+﻿{
+ "Beverages": [
+  {
+   "name": "Apple Cider"
+  },
+  {
+   "name": "Apple Juice"
+  },
+  {
+   "name": "Club / Tonic"
+  },
+  {
+   "name": "Coco mix / hot chocolate"
+  },
+  {
+   "name": "Coffee"
+  },
+  {
+   "name": "Cola"
+  },
+  {
+   "name": "Diet Cola"
+  },
+  {
+   "name": "Eggnog"
+  },
+  {
+   "name": "Fruit Punch"
+  },
+  {
+   "name": "Ginger Ale"
+  },
+  {
+   "name": "Instant Coffee"
+  },
+  {
+   "name": "Lemon - Lime Soda"
+  },
+  {
+   "name": "Lemonade"
+  },
+  {
+   "name": "Orange Juice"
+  },
+  {
+   "name": "Pineapple Juice"
+  },
+  {
+   "name": "Tomato Juice"
+  }
+ ],
+"Bread": [
+{
+"name": "Bagels"
+},
+{
+"name": "Bread (in General)"
+},
+{
+"name": "Bread Dough (in General)"
+},
+{
+"name": "Buns"
+},
+{
+"name": "Corn Bread"
+},
+{
+"name": "Crumbs / Stuffing / Panko"
+},
+{
+"name": "Egg Roll Wraps"
+},
+{
+"name": "English Muffins"
+},
+{
+"name": "Flat Bread"
+},
+{
+"name": "French Bread"
+},
+{
+"name": "Hoagie Rolls"
+},
+{
+"name": "Ice Cream Cones"
+},
+{
+"name": "Italian Bread"
+},
+{
+"name": "Pie Crust"
+},
+{
+"name": "Pita Bread"
+},
+{
+"name": "Pizza Crust"
+},
+{
+"name": "Rolls / Biscuits"
+},
+{
+"name": "Rye Bread"
+},
+{
+"name": "Tortillas / Taco Shells"
+},
+{
+"name": "Wheat / Grain Bread"
+},
+{
+"name": "White Bread"
+},
+{
+"name": "Wonton Wrappers"
+}
+],
+ "Canned Products": [
+    {
+     "name": "Baked Beans"
+    },
+    {
+     "name": "Beans (in General)"
+    },
+    {
+     "name": "Beef Broth / Boullion / Soup"
+    },
+    {
+     "name": "Beef Soup"
+    },
+    {
+     "name": "Black Beans"
+    },
+    {
+     "name": "Canned Corn"
+    },
+    {
+     "name": "Canned Tomatoes"
+    },
+    {
+     "name": "Cheese Soup"
+    },
+    {
+     "name": "Chicken Broth / Soup / Stock"
+    },
+    {
+     "name": "Chili"
+    },
+    {
+     "name": "Corned Beef Hash"
+    },
+    {
+     "name": "Crab Bisque"
+    },
+    {
+     "name": "Cream of Celery"
+    },
+    {
+     "name": "Cream of Chicken"
+    },
+    {
+     "name": "Cream of Corn"
+    },
+    {
+     "name": "Cream of Mushroom"
+    },
+    {
+     "name": "Cream of Onion"
+    },
+    {
+     "name": "Cream of Shrimp"
+    },
+    {
+     "name": "Cream of Veggie (in general)"
+    },
+    {
+     "name": "French Onion Soup"
+    },
+    {
+     "name": "Garbanzo Beans"
+    },
+    {
+     "name": "Gumbo"
+    },
+    {
+     "name": "Kidney Beans"
+    },
+    {
+     "name": "Lima Beans"
+    },
+    {
+     "name": "Minnestrone"
+    },
+    {
+     "name": "Pork and Beans"
+    },
+    {
+     "name": "Refried Beans"
+    },
+    {
+     "name": "Tomato Paste"
+    },
+    {
+     "name": "Tomato Soup"
+    },
+    {
+     "name": "Vegetable Stock"
+    }
+   ],
+   "Condiments": [
+    {
+     "name": "Applesauce"
+    },
+    {
+     "name": "Barbecue Sauce"
+    },
+    {
+     "name": "Brown / Dijon Mustard"
+    },
+    {
+     "name": "Buffalo / Hot Sauce"
+    },
+    {
+     "name": "Burgandy Wine"
+    },
+    {
+     "name": "Caramel"
+    },
+    {
+     "name": "Cesar Dressing"
+    },
+    {
+     "name": "Cheese Sauce"
+    },
+    {
+     "name": "Chili Sauce"
+    },
+    {
+     "name": "Chocolate Syrup"
+    },
+    {
+     "name": "Cocktail Sauce"
+    },
+    {
+     "name": "Corn Syrup"
+    },
+    {
+     "name": "Cranberry Sauce"
+    },
+    {
+     "name": "Curry Sauce"
+    },
+    {
+     "name": "White Wine"
+    },
+    {
+     "name": "French / Catalina"
+    },
+    {
+     "name": "Garlic Sauce"
+    },
+    {
+     "name": "Grape Jelly"
+    },
+    {
+     "name": "Gravy"
+    },
+    {
+     "name": "Guacamole"
+    },
+    {
+     "name": "Honey"
+    },
+    {
+     "name": "Honey Mustard"
+    },
+    {
+     "name": "Horseradish"
+    },
+    {
+     "name": "Italian Dressing"
+    },
+    {
+     "name": "Jelly / Jam (in General)"
+    },
+    {
+     "name": "Ketchup / Catsup"
+    },
+    {
+     "name": "Marsala Wine"
+    },
+    {
+     "name": "Mayonnaise"
+    },
+    {
+     "name": "MIracle Whip"
+    },
+    {
+     "name": "Molasses"
+    },
+    {
+     "name": "Mustard"
+    },
+    {
+     "name": "Nutella"
+    },
+    {
+     "name": "Orange Jelly"
+    },
+    {
+     "name": "Oyster Sauce"
+    },
+    {
+     "name": "Peanut Butter"
+    },
+    {
+     "name": "Pesto"
+    },
+    {
+     "name": "Poppy Seed Dressing"
+    },
+    {
+     "name": "Ranch Dressing"
+    },
+    {
+     "name": "Red Wine"
+    },
+    {
+     "name": "Relish"
+    },
+    {
+     "name": "Salsa"
+    },
+    {
+     "name": "Sandwich Spread"
+    },
+    {
+     "name": "Sherry Wine"
+    },
+    {
+     "name": "Soy Sauce"
+    },
+    {
+     "name": "Spag. Meat Sauce"
+    },
+    {
+     "name": "Spin Art Dip"
+    },
+    {
+     "name": "Steak Sauce"
+    },
+    {
+     "name": "Sweet White"
+    },
+    {
+     "name": "Syrup Maple"
+    },
+    {
+     "name": "Taco / Enchilada Sauce"
+    },
+    {
+     "name": "Teriaky Sauce"
+    },
+    {
+     "name": "Thousand Island"
+    },
+    {
+     "name": "Tobasco Sauce"
+    },
+    {
+     "name": "Tomato / Red Sauce (General)"
+    },
+    {
+     "name": "Vermouth"
+    },
+    {
+     "name": "Vinaigrette Dressing"
+    },
+    {
+     "name": "Vinegar (in General)"
+    },
+    {
+     "name": "Vinegar - Balsamic"
+    },
+    {
+     "name": "Vinegar - Cider"
+    },
+    {
+     "name": "Vinegar - Red"
+    },
+    {
+     "name": "Vinegar - Red Wine"
+    },
+    {
+     "name": "Vinegar - White"
+    },
+    {
+     "name": "Whip Cream"
+    },
+    {
+     "name": "White Sauce (General)"
+    },
+    {
+     "name": "Worcestershire"
+    }
+   ],
+    "Dairy": [
+    {
+     "name": "American Cheese"
+    },
+    {
+     "name": "Blue Cheese"
+    },
+    {
+     "name": "Blue Cheese Crumbles"
+    },
+    {
+     "name": "Butter / Margarine"
+    },
+    {
+     "name": "Buttermilk"
+    },
+    {
+     "name": "Cheddar Cheese"
+    },
+    {
+     "name": "Cheese (in General)"
+    },
+    {
+     "name": "Chocolate Milk"
+    },
+    {
+     "name": "Coconut Milk"
+    },
+    {
+     "name": "Colby Cheese"
+    },
+    {
+     "name": "Condensed / Evaporated Milk"
+    },
+    {
+     "name": "Condensed Milk (Sweetened)"
+    },
+    {
+     "name": "Cool Whip / Whipped Cream"
+    },
+    {
+     "name": "Cottage Cheese"
+    },
+    {
+     "name": "Cream (in General)"
+    },
+    {
+     "name": "Cream Cheese"
+    },
+    {
+     "name": "Eggs"
+    },
+    {
+     "name": "Feta Cheese"
+    },
+    {
+     "name": "Goat Cheese"
+    },
+    {
+     "name": "Half and Half"
+    },
+    {
+     "name": "Heavy Cream"
+    },
+    {
+     "name": "Ice Cream"
+    },
+    {
+     "name": "Jack Cheese"
+    },
+    {
+     "name": "Milk"
+    },
+    {
+     "name": "Monteray Jack"
+    },
+    {
+     "name": "Mozzarella Cheese"
+    },
+    {
+     "name": "Parmesan Cheese"
+    },
+    {
+     "name": "Provelone Cheese"
+    },
+    {
+     "name": "Ricotta Cheese"
+    },
+    {
+     "name": "Romano Cheese"
+    },
+    {
+     "name": "Sour Cream"
+    },
+    {
+     "name": "Swiss Cheese"
+    },
+    {
+     "name": "Velveeta"
+    },
+    {
+     "name": "Yogurt"
+    }
+   ],
+   "Ingredients": [
+    {
+     "name": "AllSpice"
+    },
+    {
+     "name": "Almond Extract"
+    },
+    {
+     "name": "Angel Food Cake Mix"
+    },
+    {
+     "name": "Apple Pie Filling"
+    },
+    {
+     "name": "Baking Chocolate"
+    },
+    {
+     "name": "Baking Powder"
+    },
+    {
+     "name": "Baking Soda"
+    },
+    {
+     "name": "Barbecue Seasoning"
+    },
+    {
+     "name": "Basil"
+    },
+    {
+     "name": "Bay Leaves"
+    },
+    {
+     "name": "Black Pepper"
+    },
+    {
+     "name": "Bread Mixes"
+    },
+    {
+     "name": "Brown Sugar"
+    },
+    {
+     "name": "Cajun Seasoning"
+    },
+    {
+     "name": "Canola Oil"
+    },
+    {
+     "name": "Cayenne Pepper"
+    },
+    {
+     "name": "Celery Salt"
+    },
+    {
+     "name": "Chili Powder"
+    },
+    {
+     "name": "Chili Seasoning"
+    },
+    {
+     "name": "Chives"
+    },
+    {
+     "name": "Chocolate Chips / Squares"
+    },
+    {
+     "name": "Chocolate Pudding Mix"
+    },
+    {
+     "name": "Cilantro"
+    },
+    {
+     "name": "Cinnamon"
+    },
+    {
+     "name": "Cloves"
+    },
+    {
+     "name": "Coconut Extract"
+    },
+    {
+     "name": "Cooking Spray"
+    },
+    {
+     "name": "Corn Bread Mix"
+    },
+    {
+     "name": "Corn Meal / Polenta"
+    },
+    {
+     "name": "Corn Oil"
+    },
+    {
+     "name": "Corn Starch"
+    },
+    {
+     "name": "Creole Seasoning"
+    },
+    {
+     "name": "Cumin"
+    },
+    {
+     "name": "Curry Powder"
+    },
+    {
+     "name": "Dark Cake Mix"
+    },
+    {
+     "name": "Dill"
+    },
+    {
+     "name": "Dry Mustard"
+    },
+    {
+     "name": "Fennel Seed"
+    },
+    {
+     "name": "Flour"
+    },
+    {
+     "name": "Flour - Whole Wheat"
+    },
+    {
+     "name": "Garlic Powder"
+    },
+    {
+     "name": "Garlic Salt"
+    },
+    {
+     "name": "Ginger"
+    },
+    {
+     "name": "Italian Seasoning"
+    },
+    {
+     "name": "Lemon - Herb Seasoning"
+    },
+    {
+     "name": "Lemon Extract"
+    },
+    {
+     "name": "Lemon Juice"
+    },
+    {
+     "name": "Lemon Pepper"
+    },
+    {
+     "name": "Light Cake Mix"
+    },
+    {
+     "name": "Lime Juice"
+    },
+    {
+     "name": "Meat Seasoning"
+    },
+    {
+     "name": "Mint Leaves"
+    },
+    {
+     "name": "Nutmeg"
+    },
+    {
+     "name": "Olive Oil"
+    },
+    {
+     "name": "Onion Powder"
+    },
+    {
+     "name": "Onion Soup Mix"
+    },
+    {
+     "name": "Oregano"
+    },
+    {
+     "name": "Pancake / Baking Mix"
+    },
+    {
+     "name": "Paprika"
+    },
+    {
+     "name": "Parsley"
+    },
+    {
+     "name": "Peanut Oil"
+    },
+    {
+     "name": "Peppercorns"
+    },
+    {
+     "name": "Poppyseeds"
+    },
+    {
+     "name": "Powdered Sugar"
+    },
+    {
+     "name": "Pumpkin Pie Filling"
+    },
+    {
+     "name": "Pumpkin Pie Spice"
+    },
+    {
+     "name": "Ranch Mix (packet)"
+    },
+    {
+     "name": "Red Pepper"
+    },
+    {
+     "name": "Rosemary"
+    },
+    {
+     "name": "Salt"
+    },
+    {
+     "name": "Salt and Pepper"
+    },
+    {
+     "name": "Seasoning Salt"
+    },
+    {
+     "name": "Sesame Oil"
+    },
+    {
+     "name": "Sesame Seeds"
+    },
+    {
+     "name": "Shortening / Oil (General)"
+    },
+    {
+     "name": "Spice Cake Mix"
+    },
+    {
+     "name": "Splenda"
+    },
+    {
+     "name": "Sugar"
+    },
+    {
+     "name": "Taco Seasoning"
+    },
+    {
+     "name": "Thyme"
+    },
+    {
+     "name": "Turkey Pan Drippings"
+    },
+    {
+     "name": "Vanilla Extract"
+    },
+    {
+     "name": "Vanilla Pudding Mix"
+    },
+    {
+     "name": "Vegetable Oil"
+    },
+    {
+     "name": "White Pepper"
+    },
+    {
+     "name": "Yeast"
+    },
+    {
+     "name": "Yellow Cake Mix"
+    }
+   ],
+   "Liquor": [
+    {
+     "name": "Baileys"
+    },
+    {
+     "name": "Beer (in general)"
+    },
+    {
+     "name": "Brandy"
+    },
+    {
+     "name": "Coconut Rum"
+    },
+    {
+     "name": "Gin (In General)"
+    },
+    {
+     "name": "Gran Marnier"
+    },
+    {
+     "name": "Kahlua"
+    },
+    {
+     "name": "Pale Ale (Ex. Amberbock)"
+    },
+    {
+     "name": "Pucker Raspberry"
+    },
+    {
+     "name": "Rum (in General)"
+    },
+    {
+     "name": "Stout (Ex. Guinness)"
+    },
+    {
+     "name": "Tequila (in General)"
+    },
+    {
+     "name": "Triple Sec"
+    },
+    {
+     "name": "Vodka (in General)"
+    },
+    {
+     "name": "Whiskey"
+    }
+   ],
+   "Meats": [
+    {
+     "name": "Bacon"
+    },
+    {
+     "name": "Beef (in General)"
+    },
+    {
+     "name": "Bologna"
+    },
+    {
+     "name": "Brisket"
+    },
+    {
+     "name": "Canned Chicken"
+    },
+    {
+     "name": "Chicken / Turkey (in General)"
+    },
+    {
+     "name": "Chicken Breast"
+    },
+    {
+     "name": "Cocktail Dogs / Smokies"
+    },
+    {
+     "name": "Corned Beef"
+    },
+    {
+     "name": "Ground Beef"
+    },
+    {
+     "name": "Ground Meat (in General)"
+    },
+    {
+     "name": "Ground Pork"
+    },
+    {
+     "name": "Ground Turkey"
+    },
+    {
+     "name": "Ground Veal"
+    },
+    {
+     "name": "Ham"
+    },
+    {
+     "name": "Hot Dog"
+    },
+    {
+     "name": "Keilbasa"
+    },
+    {
+     "name": "Lamb (In General)"
+    },
+    {
+     "name": "Meat Balls"
+    },
+    {
+     "name": "Pepperoni"
+    },
+    {
+     "name": "Polish Sausage"
+    },
+    {
+     "name": "Pork Chops"
+    },
+    {
+     "name": "Pork Roast"
+    },
+    {
+     "name": "Pork Tenderloin"
+    },
+    {
+     "name": "Prosciutto"
+    },
+    {
+     "name": "Roast Beef / Pot Roast"
+    },
+    {
+     "name": "Salami"
+    },
+    {
+     "name": "Sausage / Brats"
+    },
+    {
+     "name": "Sliced Chicken"
+    },
+    {
+     "name": "Sliced Ham"
+    },
+    {
+     "name": "Sliced Roast Beef"
+    },
+    {
+     "name": "Sliced Turkey"
+    },
+    {
+     "name": "Steak"
+    },
+    {
+     "name": "Turkey Breast"
+    },
+    {
+     "name": "Turkey Legs"
+    }
+   ],
+   "Pasta / Grains": [
+    {
+     "name": "Angel Hair"
+    },
+    {
+     "name": "Barley"
+    },
+    {
+     "name": "Black Rice"
+    },
+    {
+     "name": "Bowtie Pasta"
+    },
+    {
+     "name": "Brown Rice"
+    },
+    {
+     "name": "Egg Noodles"
+    },
+    {
+     "name": "Elbow Macaroni"
+    },
+    {
+     "name": "Fettuccine Noodles"
+    },
+    {
+     "name": "Gnocchi"
+    },
+    {
+     "name": "Granola"
+    },
+    {
+     "name": "Lasagna Noodles"
+    },
+    {
+     "name": "Mac and Cheese / Mix"
+    },
+    {
+     "name": "Oats / Oatmeal"
+    },
+    {
+     "name": "Orzo"
+    },
+    {
+     "name": "Pasta Noodles (in General)"
+    },
+    {
+     "name": "Ramen"
+    },
+    {
+     "name": "Rice (in General)"
+    },
+    {
+     "name": "Rigatoni"
+    },
+    {
+     "name": "Rotini Noodles"
+    },
+    {
+     "name": "Shell Noodles"
+    },
+    {
+     "name": "Spaghetti Noodles"
+    },
+    {
+     "name": "Tortellini"
+    },
+    {
+     "name": "White Rice"
+    },
+    {
+     "name": "Wild Rice"
+    },
+    {
+     "name": "Ravioli"
+    }
+   ],
+   "Produce": [
+    {
+     "name": "Apples"
+    },
+    {
+     "name": "Artichokes"
+    },
+    {
+     "name": "Asparagus"
+    },
+    {
+     "name": "Avocado"
+    },
+    {
+     "name": "Banana"
+    },
+    {
+     "name": "Beans"
+    },
+    {
+     "name": "Black Olives"
+    },
+    {
+     "name": "Blueberries"
+    },
+    {
+     "name": "Broccoli"
+    },
+    {
+     "name": "Brussel Sprouts"
+    },
+    {
+     "name": "Butternut Squash"
+    },
+    {
+     "name": "Cabbage"
+    },
+    {
+     "name": "Carrot"
+    },
+    {
+     "name": "Cauliflower"
+    },
+    {
+     "name": "Celery"
+    },
+    {
+     "name": "Cherries"
+    },
+    {
+     "name": "Cherry Tomatoes"
+    },
+    {
+     "name": "Chilis"
+    },
+    {
+     "name": "Coconut"
+    },
+    {
+     "name": "Corn"
+    },
+    {
+     "name": "Cranberries"
+    },
+    {
+     "name": "Cucumber"
+    },
+    {
+     "name": "Eggplant"
+    },
+    {
+     "name": "Fruit (in General)"
+    },
+    {
+     "name": "Garlic"
+    },
+    {
+     "name": "Grapefruit"
+    },
+    {
+     "name": "Grapes"
+    },
+    {
+     "name": "Green Beans"
+    },
+    {
+     "name": "Green Chilis"
+    },
+    {
+     "name": "Green Olives"
+    },
+    {
+     "name": "Green Onions"
+    },
+    {
+     "name": "Green Peppers"
+    },
+    {
+     "name": "Jalapenos / Chipotle Peppers"
+    },
+    {
+     "name": "Lemons"
+    },
+    {
+     "name": "Lettuce"
+    },
+    {
+     "name": "Limes"
+    },
+    {
+     "name": "Mango"
+    },
+    {
+     "name": "Mushrooms"
+    },
+    {
+     "name": "Olives / Capers (general)"
+    },
+    {
+     "name": "Onions / Shallots"
+    },
+    {
+     "name": "Oranges"
+    },
+    {
+     "name": "Peaches"
+    },
+    {
+     "name": "Pears"
+    },
+    {
+     "name": "Peas"
+    },
+    {
+     "name": "Peppers (in General)"
+    },
+    {
+     "name": "Pickles"
+    },
+    {
+     "name": "Pineapple"
+    },
+    {
+     "name": "Potatoes"
+    },
+    {
+     "name": "Potatoes - Mashed"
+    },
+    {
+     "name": "Potatoes - Red"
+    },
+    {
+     "name": "Potatoes - Sweet"
+    },
+    {
+     "name": "Pumpkin"
+    },
+    {
+     "name": "Raisins"
+    },
+    {
+     "name": "Raspberries"
+    },
+    {
+     "name": "Red Peppers"
+    },
+    {
+     "name": "Saurkraut"
+    },
+    {
+     "name": "Scallions"
+    },
+    {
+     "name": "Spinach / Leaves"
+    },
+    {
+     "name": "Squash"
+    },
+    {
+     "name": "Strawberries"
+    },
+    {
+     "name": "Tomatoes"
+    },
+    {
+     "name": "Turnip / Swede"
+    },
+    {
+     "name": "Vegetables (in General)"
+    },
+    {
+     "name": "Watermelon"
+    },
+    {
+     "name": "Yellow Peppers"
+    },
+    {
+     "name": "Zucchini"
+    },
+    {
+     "name": "Kale"
+    }
+   ],
+   "Seafood": [
+    {
+     "name": "Canned Tuna"
+    },
+    {
+     "name": "Catfish"
+    },
+    {
+     "name": "Clams"
+    },
+    {
+     "name": "Cod"
+    },
+    {
+     "name": "Crab"
+    },
+    {
+     "name": "Fish (in General)"
+    },
+    {
+     "name": "Haddock"
+    },
+    {
+     "name": "Salmon"
+    },
+    {
+     "name": "Scallops"
+    },
+    {
+     "name": "Shrimp"
+    },
+    {
+     "name": "Swordfish"
+    },
+    {
+     "name": "test"
+    },
+    {
+     "name": "Tilapia"
+    },
+    {
+     "name": "Tuna"
+    }
+   ],
+   "Snacks": [
+    {
+     "name": "Almonds"
+    },
+    {
+     "name": "Cashew"
+    },
+    {
+     "name": "Cheese Its"
+    },
+    {
+     "name": "Chocolate Bars (in General)"
+    },
+    {
+     "name": "Crackers (in general)"
+    },
+    {
+     "name": "Doritos"
+    },
+    {
+     "name": "Frozen Fries"
+    },
+    {
+     "name": "Frozen Hash Browns"
+    },
+    {
+     "name": "Frozen Tots"
+    },
+    {
+     "name": "Graham Crackers"
+    },
+    {
+     "name": "Jello"
+    },
+    {
+     "name": "Kit Kat Bars"
+    },
+    {
+     "name": "M & Ms"
+    },
+    {
+     "name": "Marshmallows"
+    },
+    {
+     "name": "Nuts (in general)"
+    },
+    {
+     "name": "Nuts (in General) (1)"
+    },
+    {
+     "name": "Oreos"
+    },
+    {
+     "name": "Oyster Crackers"
+    },
+    {
+     "name": "Peanuts"
+    },
+    {
+     "name": "Pecans"
+    },
+    {
+     "name": "Popcorn"
+    },
+    {
+     "name": "Potato Chips"
+    },
+    {
+     "name": "Pretzels"
+    },
+    {
+     "name": "Ritz Crackers"
+    },
+    {
+     "name": "Saltines"
+    },
+    {
+     "name": "Tortilla / Corn Chips"
+    },
+    {
+     "name": "Walnuts"
+    },
+    {
+     "name": "Wheat Thins / Triscuits"
+    },
+    {
+     "name": "Twinkie"
+    }
+   ]
+  }
