@@ -8,7 +8,7 @@ class Fridge extends StatefulWidget {
 }
 
 class _FridgeState extends State<Fridge> {
-  List<Food> fridge = new List<Food>();
+  List<Food> fridge = [new Food("Potatos", 14), new Food("Milk", 15), new Food("Flour (unperishable)", 16)];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -41,7 +41,7 @@ class _FridgeState extends State<Fridge> {
             child: Padding(
               padding: EdgeInsets.fromLTRB(10, 16, 10, 0),
               child: Text(
-                'Food item: ${fridge[index].name}',
+                fridge[index].name,
                 textAlign: TextAlign.left,
               ),
             ),
