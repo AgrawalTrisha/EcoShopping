@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'fridge.dart';
 import 'food.dart';
+import 'list.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -15,18 +16,29 @@ class _HomeState extends State<Home> {
       TextStyle(fontSize: 30, fontWeight: FontWeight.bold);
   static List<Widget> _widgetOptions = <Widget>[
     Fridge(),
+    ShoppingList(),
     Text(
-      'To be added: Shopping List',
-      style: optionStyle,
+      'Coming soon: Recipes',
+      textAlign: TextAlign.center,
+      style: GoogleFonts.manrope(
+        textStyle: TextStyle(
+          fontSize: 30.0,
+          letterSpacing: 2.0,
+          color: Colors.green[800],
+        ),
+      ),
     ),
     Text(
-      'To be added: Recipes',
-      style: optionStyle,
+      'Coming soon: Barcode Scanning',
+      textAlign: TextAlign.center,
+      style: GoogleFonts.manrope(
+        textStyle: TextStyle(
+          fontSize: 30.0,
+          letterSpacing: 2.0,
+          color: Colors.green[800],
+        ),
+      ),
     ),
-    Text(
-      'To be added: Barcode Scan',
-      style: optionStyle,
-    )
   ];
 
   void _onItemTapped(int index) {
